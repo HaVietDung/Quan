@@ -52,14 +52,14 @@ span {
     width: 20%; 
     margin: 10px auto; 
 }
-.paragraph:first-of-type>.text {
+.paragraph:first-of-type > .text {
     color: blue;
 }
 
-.paragraph:nth-of-type(2) .text {
+.paragraph:nth-of-type(2) > .text {
     color: red;
 }
 
-.paragraph:last-of-type {
+.paragraph:last-of-type > .text {
     color: green
 }
