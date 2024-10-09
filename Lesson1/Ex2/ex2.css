@@ -52,7 +52,7 @@ span {
     width: 20%; 
     margin: 10px auto; 
 }
-.paragraph:first-child>.text {
+.paragraph:first-of-type>.text {
     color: blue;
 }
 
@@ -60,6 +60,6 @@ span {
     color: red;
 }
 
-.paragraph:last-child {
+.paragraph:last-of-type {
     color: green
 }
